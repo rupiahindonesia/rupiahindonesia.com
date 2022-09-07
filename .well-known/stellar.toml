@@ -1,0 +1,22 @@
+FEDERATION_SERVER="https://api.stellar.org/federation" 
+
+ACCOUNTS=["GDQQQL5MC5LNBUV3RRM5Z3NKVKNNL7LOGO4MX6KEFK525OLSD6RUPIAH", 
+"GD4L6RS3IOC7N43IB3NUDMPSR7SDIOFBIKRTBE67AYT2DU7KWFRUPIAH"
+] 
+
+[DOCUMENTATION]
+ORG_NAME="RUPIAH INDONESIA" 
+ORG_URL="https://rupiahindonesia.com" 
+ORG_LOGO="https://rupiahindonesia.com/logo.webp" 
+
+[[CURRENCIES]] 
+code="RUPIAH" 
+issuer="GDQQQL5MC5LNBUV3RRM5Z3NKVKNNL7LOGO4MX6KEFK525OLSD6RUPIAH" 
+status="live" 
+name="RUPIAH INDONESIA" 
+desc="Rupiah Indonesia (Asset Code : RUPIAH) is tokenized currency for Indonesian Rupiah's Standardization (globally known as IDR or Rupiah) within Stellar Blockchain." 
+display_decimals=2 
+image="https://rupiahindonesia.com/logo.webp" 
+is_asset_anchored=true 
+anchor_asset_type="fiat" 
+anchor_asset="RUPIAH" 
